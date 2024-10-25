@@ -664,7 +664,7 @@ a:focus {
 
 .contact_section {
   position: relative;
-  padding-left: 420px;
+  padding-left: 20px;
 }
 
 .contact_section .design-box {
@@ -887,7 +887,6 @@ a:focus {
   margin: 0 10px;
 }
 
-/* footer section*/
 .footer_section {
   background-color: #363636;
   display: -webkit-box;
@@ -911,4 +910,3 @@ a:focus {
 .footer_section a {
   color: #9c9b9b;
 }
-/*# sourceMappingURL=style.css.map */

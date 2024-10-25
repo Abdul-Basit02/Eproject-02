@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry and Cosmetic Preferences</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Jewelry and Cosmetic Preferences</h1>
+    <form action="submit.php" method="post">
+        <fieldset>
+            <legend>Jewelry Preferences</legend>
+            <label for="jewelry-type">Jewelry Type:</label>
+            <select name="jewelry-type" id="jewelry-type">
+                <option value="necklace">None</option>
+                <option value="necklace">Necklace</option>
+                <option value="bracelet">Bracelet</option>
+                <option value="earrings">Earrings</option>
+                <option value="ring">Ring</option>
+            </select>
+            <br><br>
+            <label for="material">Material:</label>
+            <input type="text" id="material" name="material">
+            <br><br>
+            <label for="occasion">Occasion:</label>
+            <input type="text" id="occasion" name="occasion">
+        </fieldset>
+        <fieldset>
+            <legend>Cosmetic Preferences</legend>
+            <h2>Skin Type:</h2>
+            <label for="dry-skin">Dry<input type="radio"></label>
+            <label for="oily-skin">Oily<input type="radio"></label>
+            <label for="combination-skin">Combination<input type="radio"></label>
+            <br>
+            <h2>Product Type:</h2>
+            <label for="foundation">Foundation<input type="checkbox"></label>
+            <label for="blush">Blush<input type="checkbox"></label>
+            <label for="lipstick">Lipstick<input type="checkbox"></label>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
