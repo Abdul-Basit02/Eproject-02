@@ -19,7 +19,7 @@ fieldset {
 
 legend {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 label {
@@ -31,7 +31,8 @@ label {
 select,
 input[type="text"],
 input[type="radio"],
-input[type="checkbox"] {
+input[type="checkbox"],
+input[type="email"]{
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -43,7 +44,6 @@ input[type="radio"],
 input[type="checkbox"] {
     width: 20px;
 }
-
 
 button {
     background-color: #ffa602;

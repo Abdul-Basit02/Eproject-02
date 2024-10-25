@@ -7,11 +7,33 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Jewelry and Cosmetic Preferences</h1>
+    <h1>Jewellery and Cosmetic Form</h1>
     <form action="submit.php" method="post">
         <fieldset>
-            <legend>Jewelry Preferences</legend>
-            <label for="jewelry-type">Jewelry Type:</label>
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="Name">
+            <br><br>
+            <label for="Address">Address:</label>
+            <input type="text" id="Address" name="Address">
+            <br><br>
+            <label for=" E-mail">E-mail:</label>
+            <input type="email" id="E-mail" name="E-mail">
+            <br><br>
+            <label for=" Work Phone No"> Work Phone No:</label>
+            <input type="text" id=" Work Phone No" name=" Work Phone No">
+            <br><br>
+            <label for="Cell No">Cell No:</label>
+            <input type="text" id="Cell No" name="Cell No">
+            <br><br>
+            <label for="Date Of Birth">Date Of Birth:</label>
+            <input type="text" id="Date Of Birth" name="Date Of Birth">
+            <br><br>
+            <label for="Remarks">Remarks:</label>
+            <input type="text" id="Remarks" name="Remarks">
+        </fieldset>
+        <fieldset>
+            <legend>Category</legend>
+            <h2>Jewelry Type:</h2>
             <select name="jewelry-type" id="jewelry-type">
                 <option value="necklace">None</option>
                 <option value="necklace">Necklace</option>
@@ -19,24 +41,16 @@
                 <option value="earrings">Earrings</option>
                 <option value="ring">Ring</option>
             </select>
-            <br><br>
-            <label for="material">Material:</label>
-            <input type="text" id="material" name="material">
-            <br><br>
-            <label for="occasion">Occasion:</label>
-            <input type="text" id="occasion" name="occasion">
-        </fieldset>
-        <fieldset>
-            <legend>Cosmetic Preferences</legend>
             <h2>Skin Type:</h2>
-            <label for="dry-skin">Dry<input type="radio"></label>
-            <label for="oily-skin">Oily<input type="radio"></label>
-            <label for="combination-skin">Combination<input type="radio"></label>
+            <input type="radio" name="dry-skin" >Dry<br><br>
+            <input type="radio" name="oily-skin">Oily<br><br>
+            <input type="radio" name="combination-skin">Combination
             <br>
             <h2>Product Type:</h2>
             <label for="foundation">Foundation<input type="checkbox"></label>
             <label for="blush">Blush<input type="checkbox"></label>
             <label for="lipstick">Lipstick<input type="checkbox"></label>
+            <label for="whitening cream">whitening cream<input type="checkbox"></label>
         </fieldset>
         <button type="submit">Submit</button>
     </form>
